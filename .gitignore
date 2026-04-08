@@ -1,0 +1,11 @@
+# MATLAB autosave
+*.asv
+
+# Results
+*.mat
+
+# CasADi (download separately)
+mpc/casadi_files/
+
+# Logs
+*.txt
