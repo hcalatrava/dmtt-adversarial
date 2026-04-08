@@ -2,7 +2,7 @@
 
 Code for the paper:
 
-> H. Calatrava, S. Tang, P. Closas, "Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking," IEEE FUSION 2026.
+> H. Calatrava, S. Tang, P. Closas, "Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking," Under Review.
 
 [[arXiv]](https://arxiv.org/abs/2603.05023) [[Code]](https://github.com/hcalatrava/dmtt-adversarial)
 
@@ -27,17 +27,5 @@ The core tracking and fusion code (`filters_joint/`, `data_fusion/`, `track_matc
 
 ## Usage
 
-Open `run_mc_attack.m`, select the attack type and number of trials at the top of the file, and run. To plot results across attack variants, run `mc_results_plots.m`.
+Open `main.m`, select the attack type and number of trials at the top of the file, and run. 
 
----
-
-## Citation
-
-```bibtex
-@inproceedings{calatrava2026label,
-  title     = {Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking},
-  author    = {Calatrava, Helena and Tang, Shuo and Closas, Pau},
-  booktitle = {Proc. IEEE FUSION},
-  year      = {2026}
-}
-```
