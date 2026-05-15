@@ -12,7 +12,7 @@ Code for the paper:
 
 This repository builds directly on the TC-DMTT framework of:
 
-> H. Van Nguyen, H. Rezatofighi, B.-N. Vo, D. C. Ranasinghe, "Distributed Multi-Object Tracking under Limited Field of View Sensors," IEEE Transactions on Signal Processing, 2021. [[Paper]](https://doi.org/10.1109/TSP.2021.3108811) [[Code]](https://github.com/linh-gist/mv-glmb-ab)
+> H. Van Nguyen, H. Rezatofighi, B.-N. Vo, D. C. Ranasinghe, "Distributed Multi-Object Tracking under Limited Field of View Sensors," IEEE Transactions on Signal Processing, 2021. [[Paper]](https://doi.org/10.1109/TSP.2021.3108811) [[Code]](https://github.com/AdelaideAuto-IDLab/Distributed-limitedFoV-MOT)
 
 The core tracking and fusion code (`filters_joint/`, `data_fusion/`, `track_matching/`, `misc/`) is taken directly from their implementation. Our contributions are the attack injection block in `run_fused_filter.m`, the spoofed trajectory generation in `gen_truth_attack_scenario.m`, the MPC solver in `mpc/solve_MPC.m`, and the modified scenario settings in `gen_settings.m`.
 
